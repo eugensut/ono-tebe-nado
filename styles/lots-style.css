@@ -1,0 +1,24 @@
+.lots {
+  width: 1052px;
+  height: 692px;
+  background-color: aqua;
+  margin: 0 24px 146px 24px;
+}
+
+.lots__heading {
+  margin-left: 40px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.lots__card-list {
+}
+
+.lots__card-list-item {
+    
+}
