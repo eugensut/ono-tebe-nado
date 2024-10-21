@@ -62,17 +62,11 @@
 
 .cover {
   position: relative;
-  height: 757px;
   margin-bottom: 179px;
-}
-
-.cover-img {
-  position: absolute;
-  inset: 0 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -2;
+  background-image: url(../images/cover.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 51px;
 }
 
 .overlay {
@@ -82,7 +76,6 @@
   height: 100%;
   opacity: 0.6;
   inset: 0 0;
-  z-index: -1;
 }
 
 .cover__title {
@@ -94,6 +87,7 @@
   color: #ffffff;
   width: 100%;
   padding: 165px 50px 135px 50px;
+  z-index: 1;
 }
 
 .aligned-text {
@@ -125,7 +119,6 @@
   display: flex;
   width: 100%;
   height: 51px;
-  z-index: 1;
   padding: 0 50px 0 78px;
   align-items: center;
   justify-content: space-between;
@@ -139,6 +132,7 @@
   text-transform: uppercase;
   color: #ffffff;
   word-spacing: 0.84em;
+  z-index: 1;
 }
 
 .bet-button {
@@ -156,11 +150,11 @@
   min-height: 51px;
 
   border: 1px solid #fff;
+  z-index: 1;
 }
 
 .lots {
   max-width: 1052px;
-  height: 692px;
   margin: 0 24px 181px 24px;
 }
 
@@ -196,7 +190,6 @@
   display: block;
   text-decoration-line: none;
   height: 100%;
-  z-index: -2;
 }
 
 .card_type_film {
@@ -238,6 +231,7 @@
   font-size: 20px;
   line-height: 120%;
   color: #ffffff;
+  z-index: 1;
 }
 
 .lots__look-more-link {
