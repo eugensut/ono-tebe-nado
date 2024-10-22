@@ -79,6 +79,7 @@
 }
 
 .cover__title {
+  position: relative;
   font-style: normal;
   font-weight: 700;
   font-size: 100px;
@@ -186,7 +187,6 @@
 }
 
 .card-link {
-  position: absolute;
   display: block;
   text-decoration-line: none;
   height: 100%;
